@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postman": {
+      "command": "postman-mcp",
+      "args": ["--mode", "sse", "--port", "8000"],
+      "env": {
+        "POSTMAN_API_KEY": "your_postman_api_key_here"
+      }
+    }
+  }
+}
